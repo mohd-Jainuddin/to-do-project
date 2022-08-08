@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+
+.header{
+    width: 20rem;
+    padding: 10px;
+    margin: 0 auto;
+    line-height: 40px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#task{
+    width: 250px;
+    height: 30px;
+    font-size: large;
+}
+#btn{
+    padding: 4px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: green;
+}
+.box{
+    width: 20rem;
+    margin: 0 auto;
+}
+#list li{
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    background-color: hotpink;
+}
+#list li:hover{
+    background-color: rgb(216, 20, 20);
+}
